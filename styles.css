@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(248, 242, 242);
+}
+.container {
+  height: 600px;
+}
+.facebook {
+  color: #0047ab;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  position: relative;
+  top: 250px;
+  position: relative;
+  left: 50px;
+}
+.description {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  position: relative;
+  top: 270px;
+  position: relative;
+  left: 50px;
+}
+.form {
+  height: 300px;
+  width: 300px;
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid rgb(224, 218, 218);
+  border-radius: 5px;
+  padding: 10px;
+  position: relative;
+  left: 800px;
+  position: relative;
+  top: 40px;
+  background-color: white;
+  box-shadow: 5px 5px 2px rgb(233, 197, 197);
+}
+#email {
+  padding: 10px;
+  width: 250px;
+}
+#password {
+  padding: 10px;
+  width: 250px;
+}
+.logIn {
+  color: white;
+  background-color: #0047ab;
+  width: 250px;
+  height: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  border-radius: 5px;
+}
+.Forgotten {
+  color: #0047ab;
+  background-color: white;
+  border: 2px solid transparent;
+}
+.CreateAccount {
+  font-weight: 600;
+  color: white;
+  background-color: green;
+  border-radius: 5px;
+  width: 150px;
+  height: 40px;
+  padding: 8px;
+}
